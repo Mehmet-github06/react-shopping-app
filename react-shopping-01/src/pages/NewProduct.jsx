@@ -27,7 +27,7 @@ const NewProduct = () => {
     e.preventDefault();
     console.log(formData);
     await axios.post(
-      "https://63f4e5583f99f5855db9e941.mockapi.io/products",
+      "https://65626687ee04015769a664b1.mockapi.io/furkans",
       formData
     );
     // setName("")
